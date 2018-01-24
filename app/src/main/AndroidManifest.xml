@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.electiva.juan.homerepair" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Principal"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Consultar"
+            android:label="@string/title_activity_consu__solicitud" >
+        </activity>
+        <activity
+            android:name=".Servicios"
+            android:label="@string/title_activity_servicios" >
+        </activity>
+        <activity
+            android:name=".Acceso"
+            android:label="@string/title_activity_acceso" >
+            <intent-filter>
+                <action android:name="com.google.app.jhpi.CLEARSPLASH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegistroCliente"
+            android:label="@string/title_activity_registro_usuario" >
+        </activity>
+        <activity
+            android:name=".DetalleSolicitud"
+            android:label="@string/title_activity_detalle_solicitud" >
+        </activity>
+        <activity
+            android:name=".Calificar"
+            android:label="@string/title_activity_calificar" >
+        </activity>
+        <activity
+            android:name=".RegistroEmpresa"
+            android:label="@string/title_activity_registro_empresa" >
+        </activity>
+        <activity
+            android:name=".Registro"
+            android:label="@string/title_activity_registro" >
+        </activity>
+        <activity
+            android:name=".RegistroProfesional"
+            android:label="@string/title_activity_registro_profesional" >
+        </activity>
+        <activity
+            android:name=".RegistroServicios"
+            android:label="@string/title_activity_registro_servicios" >
+        </activity>
+        <activity
+            android:name=".ListaSolicitud"
+            android:label="@string/title_activity_lista_solicitud" >
+        </activity>
+        <activity
+            android:name=".ListaCotizacion"
+            android:label="@string/title_activity_lista_cotizacion" >
+        </activity>
+        <activity
+            android:name=".EditarCliente"
+            android:label="@string/title_activity_editar_cliente" >
+        </activity>
+        <activity
+            android:name=".EditarEmpresa"
+            android:label="@string/title_activity_editar_empresa" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.electiva.juan.homerepair.RegistroCliente">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView android:text="@string/txt_RegistroProfesional"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/title"
+                android:textSize="28sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="30dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText android:id="@+id/edtTxtRegUsuarioProfe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edtTxtUsuario"
+                android:textColorHint="@color/text"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:inputType="text"/>
+
+            <EditText android:id="@+id/edtTxtRegContraseñaProfe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edtTxtContraseña"
+                android:textColorHint="@color/text"
+                android:gravity="center"
+                android:inputType="textPassword"/>
+
+            <EditText android:id="@+id/edtTxtRegNombresProfe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_nombres"
+                android:textColorHint="@color/text"
+                android:gravity="center"
+                android:inputType="text"/>
+
+            <EditText android:id="@+id/edtTxtRegApellidosProfe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_apellidos"
+                android:textColorHint="@color/text"
+                android:gravity="center"
+                android:inputType="text"/>
+
+            <EditText android:id="@+id/edtTxtRegEmailProfe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_email"
+                android:textColorHint="@color/text"
+                android:gravity="center"
+                android:inputType="textEmailAddress"/>
+
+            <EditText android:id="@+id/edtTxtRegTelefonoProfe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_telefono"
+                android:textColorHint="@color/text"
+                android:gravity="center"
+                android:inputType="number"/>
+
+
+            <EditText android:id="@+id/edtTxtRegFenaciProfe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_fecnaciprofe"
+                android:textColorHint="@color/text"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_siguiente"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="25sp"
+        android:textColor="@color/text"
+        android:clickable="true"/>
+</RelativeLayout>

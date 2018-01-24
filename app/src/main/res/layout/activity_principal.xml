@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Principal">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView android:text="@string/txt_home_repair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"
+            android:textSize="28sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView android:text="@string/txt_intro_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="50dp"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <Button android:text="@string/btn_ConSol"
+                android:layout_width="fill_parent"
+                android:id="@+id/btnConSol"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:layout_margin="2.5dp"
+                android:textColor="@color/textColorButton"
+                android:textAllCaps="false"
+                android:onClick="searchRequest"/>
+
+            <Button android:text="@string/btn_SoliServ"
+                android:layout_width="fill_parent"
+                android:id="@+id/btnSoliServ"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:layout_margin="2.5dp"
+                android:textColor="@color/textColorButton"
+                android:textAllCaps="false"
+                android:onClick="requestService"/>
+
+            <Button android:text="@string/btn_VerSolicitudes"
+                android:layout_width="fill_parent"
+                android:id="@+id/btnVerSolicitudes"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:layout_margin="2.5dp"
+                android:textColor="@color/textColorButton"
+                android:textAllCaps="false"
+                android:onClick="viewRequest"/>
+
+            <Button android:text="@string/btn_EditInfo"
+                android:layout_width="fill_parent"
+                android:id="@+id/btnEdiInfo"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:layout_margin="2.5dp"
+                android:textColor="@color/textColorButton"
+                android:textAllCaps="false"
+                android:onClick="editInformation"/>
+
+            <Button android:text="Cerrar Sesión"
+                android:layout_width="fill_parent"
+                android:id="@+id/btnLogout"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:layout_margin="2.5dp"
+                android:textColor="@color/textColorButton"
+                android:textAllCaps="false"
+                android:onClick="logout"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

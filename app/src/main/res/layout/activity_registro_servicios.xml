@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.electiva.juan.homerepair.RegistroServicios">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView android:text="@string/txt_Regis_Servicios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"
+            android:textSize="28sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView android:text="@string/txt_selec_Reg_serv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox android:id="@+id/chkCarp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_carpinteria"
+            android:textColorHint="@color/text"
+            android:layout_marginTop="40dp"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:onClick="onCheckboxClicked"/>
+
+
+        <CheckBox android:id="@+id/chkCerra"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_cerrajeria"
+            android:textColorHint="@color/text"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:onClick="onCheckboxClicked"/>
+
+
+        <CheckBox android:id="@+id/chkComputo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_computo"
+            android:textColorHint="@color/text"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:onClick="onCheckboxClicked"/>
+
+
+        <CheckBox android:id="@+id/chkElectronico"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_electrodo"
+            android:textColorHint="@color/text"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:onClick="onCheckboxClicked"/>
+
+
+        <CheckBox android:id="@+id/chkElectrico"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_electrico"
+            android:textColorHint="@color/text"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:onClick="onCheckboxClicked"/>
+
+
+        <CheckBox android:id="@+id/chkPlomeria"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_plomeria"
+            android:textColorHint="@color/text"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:onClick="onCheckboxClicked"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/finish"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="25sp"
+        android:textColor="@color/text"
+        android:clickable="true"
+        android:onClick="createUser"/>
+
+</RelativeLayout>

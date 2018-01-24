@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.electiva.juan.homerepair.RegistroEmpresa">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <TextView android:text="@string/txt_regis_empresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/title"
+                android:textSize="28sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="30dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText android:id="@+id/edtTxtRegUsuarioEmpresa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edtTxtUsuario"
+                android:textColorHint="@color/text"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:inputType="text"/>
+
+            <EditText android:id="@+id/edtTxtRegContraseñaEmpresa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edtTxtContraseña"
+                android:textColorHint="@color/text"
+                android:gravity="center"
+                android:inputType="textPassword"/>
+
+            <EditText android:id="@+id/edtNomEmpresa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edtNomEmpresa"
+                android:textColorHint="@color/text"
+                android:gravity="center"
+                android:inputType="text"/>
+
+
+            <EditText android:id="@+id/edtIdEmpresa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edtIdEmpresa"
+                android:textColorHint="@color/text"
+                android:gravity="center"
+                android:inputType="number"/>
+
+            <EditText android:id="@+id/edtTelEmpresa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edtTelEmpresa"
+                android:textColorHint="@color/text"
+                android:gravity="center"
+                android:inputType="number"/>
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinActividad"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_siguiente"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="25sp"
+        android:textColor="@color/text"
+        android:clickable="true"
+        android:onClick="registryServices"
+        android:id="@+id/textEditaEmpresa"/>
+</RelativeLayout>

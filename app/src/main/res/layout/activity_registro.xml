@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.electiva.juan.homerepair.Registro">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView android:text="@string/title_activity_registro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"
+            android:textSize="28sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp">
+
+                <Button android:text="@string/btn_empresa"
+                    android:layout_width="fill_parent"
+                    android:id="@+id/btnEmpresa"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:layout_margin="2.5dp"
+                    android:textColor="@color/textColorButton"
+                    android:textAllCaps="false"
+                    android:onClick="registryEmpresa"/>
+
+                <Button android:text="@string/btn_profesional"
+                    android:layout_width="fill_parent"
+                    android:id="@+id/btnProfesional"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:layout_margin="2.5dp"
+                    android:textColor="@color/textColorButton"
+                    android:textAllCaps="false"
+                    android:onClick="registryProfesional"/>
+
+                <Button android:text="@string/btn_cliente"
+                    android:layout_width="fill_parent"
+                    android:id="@+id/btnCliente"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:layout_margin="2.5dp"
+                    android:textColor="@color/textColorButton"
+                    android:textAllCaps="false"
+                    android:onClick="registryCliente"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

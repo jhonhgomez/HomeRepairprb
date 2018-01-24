@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Home Repair</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Acceso a la aplicacion-->
+    <string name="txt_Acceso">Acceso</string>
+    <string name="edtTxtUsuario">Usuario</string>
+    <string name="edtTxtContraseña">Contraseña</string>
+    <string name="btn_Ingresar">Ingresar</string>
+    <string name="btn_Registrarse">Crear una cuenta</string>
+
+    <!--Registro de cliente-->
+    <string name="txt_RegistroCliente">Registro de Cliente</string>
+    <string name="txt_nombres">Nombres</string>
+    <string name="txt_apellidos">Apellidos</string>
+    <string name="txt_email">Correo electronico</string>
+    <string name="txt_telefono">Telefono</string>
+    <string name="autTxt_Depar">Departamento</string>
+    <string name="autTxt_Ciudad">Ciudad</string>
+    <string name="txt_fecnaciclien">Fecha de Nacimiento</string>
+
+    <!--Registro de profesional-->
+    <string name="txt_RegistroProfesional">Registro de Profesional</string>
+    <string name="txt_fecnaciprofe">Fecha de Nacimiento</string>
+
+
+
+    <!--Menu principal-->
+    <string name="txt_home_repair">Home Repair</string>
+    <string name="txt_intro_home">Home Repair es una app que permite solicitar asistencia  de servicios de reparacion y mantenimiento para el hogar
+    o empresa a traves de un gran numero de profesionales en el area dispuestos a resolver su problema.</string>
+    <string name="btn_SoliServ">Solicitar Servicio</string>
+    <string name="btn_ConSol">Consultar Solicitud</string>
+    <string name="btn_EditInfo">Editar Información</string>
+    <string name="btn_VerSolicitudes">Ver Solicitudes</string>
+
+
+    <!--Consultar solicitud-->
+    <string name="txt_Consultar">Consultar Solicitud</string>
+    <string name="edtTxtNumConsu">Digite el número de su solicitud</string>
+    <string name="btn_Consultar">Consultar</string>
+
+    <!--Servicios-->
+    <string name="txt_Servicios">Servicios</string>
+    <string name="txt_selec_serv">Seleccione la categoría del servicio que requiere</string>
+    <string name="txt_carpinteria">Carpintería</string>
+    <string name="txt_cerrajeria">Cerrajería</string>
+    <string name="txt_computo">Cómputo</string>
+    <string name="txt_electrodo">Electrónicos</string>
+    <string name="txt_electrico">Eléctricos</string>
+    <string name="txt_plomeria">Plomería</string>
+
+    <!--Detalle de solicitud-->
+    <string name="txt_Detalle">Detalle de solicitud</string>
+    <string name="txt_detalle_solicitud">Por favor ingrese los detalles de su solicitud</string>
+    <string name="txt_ingresar_detalle">Ingrese aqui los detalles de su solicitud</string>
+
+    <!--Calificar servicio-->
+    <string name="txt_Calificar">Calificar servicio</string>
+    <string name="txt_opinion_servicio">Dejanos tu calificacion y opinion del servicio</string>
+    <string name="txt_ingresar_opinion">Ingrese aqui su opinion</string>
+    <string name="btn_Enviar">Enviar</string>
+    <string name="txt_compartir">Compartir</string>
+
+    <!--Registro-->
+    <string name="btn_empresa">Empresa</string>
+    <string name="btn_profesional">Profesional</string>
+    <string name="btn_cliente">Cliente</string>
+
+    <!--Registro empresa-->
+    <string name="txt_regis_empresa">Registro de Empresa</string>
+    <string name="edtNomEmpresa">Nombre de Empresa</string>
+    <string name="edtIdEmpresa">NIT de la Empresa</string>
+    <string name="edtTelEmpresa">Telefono</string>
+    <string name="txt_datosbas">Datos Básicos</string>
+    <string name="ExList_ActEcono">Actividad Económica</string>
+    <string name="btn_siguiente">Siguiente</string>
+
+    <!--Registro de Servicios-->
+    <string name="txt_Regis_Servicios">Registro de Servicios</string>
+    <string name="txt_selec_Reg_serv">Seleccione los servicios que prestará</string>
+
+    <!--Titles-->
+    <string name="title_activity_consu__solicitud">Consultar Solicitud</string>
+    <string name="title_activity_servicios">Servicios</string>
+    <string name="title_activity_acceso">Acceso</string>
+    <string name="title_activity_registro_usuario">Registro de Usuario</string>
+    <string name="title_activity_solicitar_servicio">Solicitar Servicio</string>
+    <string name="title_activity_detalle_solicitud">Detalle de Solicitud</string>
+    <string name="title_activity_calificar">Calificar</string>
+    <string name="title_activity_registro">Tipo de Registro</string>
+    <string name="title_activity_registro_empresa">Registro de Empresa</string>
+    <string name="title_activity_registro_profesional">Registro de Profesional</string>
+    <string name="title_activity_registro_servicios">Registro de Servicios</string>
+
+
+    <!--ActionBar Label-->
+    <string name="add_usuario">Adicionar</string>
+    <string name="add_detalle">Registrar</string>
+
+    <!--Generales-->
+    <string name="next">Siguiente</string>
+    <string name="finish">Finalizar</string>
+    <string name="title_activity_lista_solicitud">ListaSolicitud</string>
+    <string name="title_activity_lista_cotizacion">ListaCotizacion</string>
+    <string name="title_activity_editar_cliente">Editar Inormacion</string>
+    <string name="title_activity_editar_empresa">Editar Inormacion</string>
+    <string name="title_activity_splash">Splash</string>
+</resources>

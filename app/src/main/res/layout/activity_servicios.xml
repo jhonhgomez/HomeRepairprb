@@ -1,0 +1,196 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.electiva.juan.homerepair.Servicios">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView android:text="@string/txt_Servicios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"
+            android:textSize="28sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView android:text="@string/txt_selec_serv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:backgroundTint="@color/text"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/martillo1"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="15dp"
+                        android:id="@+id/btncarp"
+                        android:onClick="onImageClicked" />
+
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:backgroundTint="@color/text"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/llaves"
+                        android:id="@+id/btncerra"
+                        android:onClick="onImageClicked" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:backgroundTint="@color/text"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/desktop1"
+                        android:id="@+id/btnpc"
+                        android:onClick="onImageClicked" />
+
+                </LinearLayout>
+
+            </TableRow>
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView android:text="@string/txt_carpinteria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/accent"
+                        android:textSize="17sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center"/>
+
+                    <TextView android:text="@string/txt_cerrajeria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/accent"
+                        android:textSize="17sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center"/>
+
+                    <TextView android:text="@string/txt_computo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/accent"
+                        android:textSize="17sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+            </TableRow>
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:backgroundTint="@color/text"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/microwavepeq"
+                        android:id="@+id/btnelectronico"
+                        android:onClick="onImageClicked" />
+
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:backgroundTint="@color/text"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/electr"
+                        android:id="@+id/btnelectrico"
+                        android:onClick="onImageClicked" />
+
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:backgroundTint="@color/text"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/plom"
+                        android:id="@+id/btnplomeria"
+                        android:onClick="onImageClicked" />
+
+                </LinearLayout>
+
+            </TableRow>
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView android:text="@string/txt_electrodo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/accent"
+                        android:textSize="17sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center"/>
+
+                    <TextView android:text="@string/txt_electrico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/accent"
+                        android:textSize="17sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center"/>
+
+                    <TextView android:text="@string/txt_plomeria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/accent"
+                        android:textSize="17sp"
+                        android:layout_weight="0.3"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
